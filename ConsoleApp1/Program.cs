@@ -6,8 +6,14 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.ReadLine();
+            if (x <= 5)
+            {
+                y = 5 * x;
+            }
+            else
+            {
+                Console.WriteLine("Долбаёб, сказано же, меньше или равно пяти!");
+            }
         }
     }
 }
